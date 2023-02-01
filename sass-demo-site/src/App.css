@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #eaf4ff;
+}
+
+.big-container{
+    margin: 0% 5%
+}
+
+.logo-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.logo{
+    font-size:1.3rem ;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Nav-container{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    height: 10vh;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom:4%
+}
+
+.Nav-Buttons-Container{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+   
+    
+}
+
+.Nav-Buttons-Container ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:#454f66;
+    height: 5rem;
+    align-items: center;
+}
+
+
+.Nav-Buttons-Container ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Nav-Buttons-Container ul li:hover{
+    transition: all ease 1s;
+    color:rgb(100, 100, 100);
+}
+
+#Contact-Button{
+    background-color: #fd4367;
+    border-radius: 100px;
+    padding: 2% 4%;
+    color:white;
+}
+
+#Contact-Button:hover{
+    background-color: rgb(79, 79, 168);
+    transition: all ease 1s;
+}
+
+.section-1-container{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    flex-direction: row;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.info-container h2{
+    font-size: 3rem;
+    margin-bottom: 4%;
+}
+
+.info-container p{
+    margin-bottom: 2%;
+}
+
+.button-container-1{
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-1-button{
+    height: 4rem;
+    width: 14rem;
+    border-radius: 100px;
+    background-color: transparent;
+    font-size:1rem;
+}
+
+
+#getStarted{
+    background-color: #fd4367;
+    color: white;
+    border:none
+}
+
+#getStarted:hover{
+    transition: all .3s;
+    background-color: rgb(79, 79, 168);
+}
+
+
+.section-1-button:hover{
+    transition: all .3s;
+    background-color: rgb(79, 79, 168);
+    color: white;
+    border:none;
+}
+
+.Picture-Div{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.picture-1{
+    width: 40%;
+    height: 40%;
+    border:1px solid black;
+    position: relative;
+    top: 10%;
+    transform: rotate(60deg);
+    background-color: pink;
+}
+
+
+.picture-2{
+    width: 40%;
+    height: 40%;
+    border:1px solid black;
+    top: 7%;
+    transform: rotate(-60deg);
+    background-color: purple;
+    
+}
+
+
+.picture-3{
+    width: 40%;
+    height: 40%;
+    border:1px solid black;
+    left: 5%;
+    margin-top: 20%;
+    transform: translateY(-30%);
+    transform: rotate(-60deg);
+    background-color: lightblue;
+
+}
+
+
+.picture-4{
+    width: 40%;
+    height: 40%;
+    border:1px solid black;
+    top:-50;
+    margin-top: 10%;
+    transform: rotate(85deg);
+    background-color: gold;
+}
+
+
+
+
