@@ -1,5 +1,5 @@
 import React from 'react'
-import './pics'
+import pic1 from './pics/demo-pic-1.png'
 import './App.css'
 
 function SectionOne() {
@@ -15,9 +15,7 @@ function SectionOne() {
             </div>
 
             <div className="Picture-Div">
-                <div className="picture-1">
-                    <img src="./pics/demo-pic-1.png" alt=""/> 
-                </div>
+                <div className="picture-1"></div>
                 <div className="picture-2"></div>
                 <div className="picture-3"></div>
                 <div className="picture-4"></div>
