@@ -6,7 +6,7 @@ import PicTwo from './Section 3 Pics/1.png'
 
 function SectionThree() {
     return (
-        <div className="Section-3-Container">
+        <div className="Section-3-Container" id="SectionThree">
             <div className="Section-3-Pics-Container">
                 <img src={PicOne} id="PicOneSectionThree"/>
                 <img src={PicTwo} id="PicTwoSectionThree"/>

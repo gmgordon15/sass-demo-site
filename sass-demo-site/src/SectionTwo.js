@@ -6,7 +6,7 @@ import ShapesThree from './Icons/star.png'
 
 function SectionTwo() {
     return (
-        <div className="Section-2-Container">
+        <div className="Section-2-Container" id="SectionTwo">
             <div className="features-tag">Features</div>
             <div className="title-container">
                 <h1>Connect All your tools <br/>and work effeciently</h1>

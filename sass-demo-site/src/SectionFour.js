@@ -3,7 +3,7 @@ import CheckMark from './Icons/check.png'
 
 function SectionFour() {
     return (
-        <div className="Section-4-Container">
+        <div className="Section-4-Container" id="SectionFour">
             <div className="Section-4-Title-Container">
                 <div className="Pricing-Tag">Pricing</div>
                 <h1>Our Plans</h1>

@@ -1,5 +1,5 @@
 import React from 'react'
-import pic1 from './pics/demo-pic-1.png'
+
 import './App.css'
 
 function SectionOne() {

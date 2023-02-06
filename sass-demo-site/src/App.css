@@ -93,6 +93,7 @@ body{
     width: 100%;
     height: 80vh;
     flex-direction: row;
+    margin-top: 5%;
 }
 
 .info-container{
@@ -214,6 +215,7 @@ body{
     height: 90vh;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10%;
 }
 
 .features-tag{
@@ -330,13 +332,13 @@ body{
 
 .Section-3-Container{
     margin-top: 5%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: row;
 }
 
 .Section-3-Pics-Container{
-    height: 90%;
+    height: 85%;
     width: 60%;
     margin-right: 5%;
     display: flex;
@@ -418,7 +420,7 @@ body{
 
 .Section-4-Container{
     margin-top: 7%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     margin-bottom: 10%;
@@ -446,7 +448,7 @@ body{
 .Section-4-Card-Container{
     display: flex;
     flex-direction: row;
-    height: 100%;
+    height: 80%;
     justify-content: space-between;
     margin-top: 4%;
 }
@@ -454,7 +456,7 @@ body{
 .Section-4-Card-1{
     display: flex;
     flex-direction: column;
-    height: 85%;
+    height: 75%;
     width: 28%;
     border-radius: 12px;
     padding: 2%;
@@ -529,7 +531,7 @@ body{
 .Section-4-Card-2{
     display: flex;
     flex-direction: column;
-    height: 85%;
+    height: 75%;
     width: 28%;
     border-radius: 12px;
     padding: 2%;
@@ -542,7 +544,7 @@ body{
 .Section-4-Card-3{
     display: flex;
     flex-direction: column;
-    height: 85%;
+    height: 75%;
     width: 28%;
     border-radius: 12px;
     padding: 2%;

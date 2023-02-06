@@ -4,7 +4,7 @@ function SectionSix() {
     return (
         <div className="Section-6-Container">
             <div className="logo-div-footer">
-                <h3>Logo</h3>
+                <h3>Rose Anaytics</h3>
             </div>
             <div className="section-6-content-container">
                 <div className="section-6-divs" id="section-6-div-1">

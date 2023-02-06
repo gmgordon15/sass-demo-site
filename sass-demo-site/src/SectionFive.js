@@ -2,7 +2,7 @@ import React from 'react'
 
 function SectionFive() {
     return (
-        <div className="section-5-container">
+        <div className="section-5-container" id="SectionFive">
             <div className="section-5-title-container">
                 <div className="section-5-Tag">Contact US</div>
                 <h1>We are here to help. Contact us Today.</h1>
