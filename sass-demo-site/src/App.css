@@ -255,7 +255,7 @@ body{
 
 .card-container{
     display: flex;
-    height: 75%;
+    height: 85%;
     align-items: center;
     justify-content: space-around;
 }
