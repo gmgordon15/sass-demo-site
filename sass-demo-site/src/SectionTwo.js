@@ -17,7 +17,7 @@ function SectionTwo() {
                 <div className="cards" id="card-1">
                     <div className="Card-Content-Container">
                         <img src={IconCirlce} alt=""/>
-                        <h3>All-In-One-Platform</h3>
+                        <h3>One-Platform</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. cillum dolore.</p>
                     </div>
